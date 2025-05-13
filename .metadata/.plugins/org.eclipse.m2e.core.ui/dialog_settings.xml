@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Azhar&apos;s Workspace\ICOS-PROD\MAS_APPLN"/>
 			<item value="C:\Azhar&apos;s Workspace\ICOS-PROD\svt-module"/>
 		</list>
 		<list key="projectNameTemplate">
