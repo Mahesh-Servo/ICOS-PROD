@@ -1,11 +1,6 @@
 package com.svt.service;
 
-import java.io.ByteArrayInputStream;
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.net.HttpURLConnection;
-import java.net.URL;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -14,25 +9,22 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.HashMap;
 import java.util.Map;
-import javax.xml.soap.SOAPException;
-import javax.xml.soap.SOAPMessage;
-import javax.xml.soap.MessageFactory;
+
 import javax.xml.soap.SOAPConnection;
 import javax.xml.soap.SOAPConnectionFactory;
+import javax.xml.soap.SOAPException;
+
 import org.apache.commons.lang3.StringEscapeUtils;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.svt.utils.dataConnectivity.dbConnection;
+
 import com.svt.controllers.FDAccountInquiryController;
 import com.svt.utils.common.Constants;
 import com.svt.utils.common.OperationUtillity;
 import com.svt.utils.common.commonUtility;
 import com.svt.utils.common.xmlToMap;
-import com.svt.crypto.EncryptDecryptUtils;
-import com.svt.crypto.HybridEncrDecr;
-import com.svt.crypto.PayloadEncryptDecrypt;
-import org.json.JSONObject;
+import com.svt.utils.dataConnectivity.dbConnection;
 
 @Service
 public class FDAccountInqService {
@@ -183,12 +175,17 @@ public class FDAccountInqService {
 				maturityDate = LocalDate.parse(maturityDateRes, format);
 				logger.info("FDAccountInqService.executeFDAccountInquiryService.pinstid [" + pinstid + "] FDRNO = ["
 						+ fdrNo + "] reviewDate = [" + reviewDate + "] maturityDate = [" + maturityDate + "]");
-				if (reviewDate.isAfter(maturityDate)) {
-					result = "FD security review date should not be greater than FD matuirty date [" + maturityDateRes
-							+ "]";
-					API_REQ_RES_map.put("FinalResult", result);
-					return API_REQ_RES_map;
-				}
+				
+				//jira - 11024
+				//amit_b starts commented- 24-04-2025 
+//				if (reviewDate.isAfter(maturityDate)) {
+//					result = "FD security review date should not be greater than FD matuirty date [" + maturityDateRes
+//							+ "]";
+//					API_REQ_RES_map.put("FinalResult", result);
+//					return API_REQ_RES_map;
+//				}
+				
+				//amit_b ended - 24-04-2025
 				result = "SUCCESS";
 
 			} else {

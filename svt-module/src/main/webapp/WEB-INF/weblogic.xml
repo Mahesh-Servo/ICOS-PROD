@@ -9,6 +9,7 @@
 		<wls:prefer-application-packages>
 			<wls:package-name>org.slf4j.*</wls:package-name>
 			<wls:package-name>org.springframework.*</wls:package-name>
+			<wls:package-name>com.google.gson.*</wls:package-name>
 		</wls:prefer-application-packages>
 	</wls:container-descriptor>
 </wls:weblogic-web-app>

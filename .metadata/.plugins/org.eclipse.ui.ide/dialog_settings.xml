@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="installedFeatures">
+		<item value="com.ianbrandt.tools.m2e.mdp.feature:0.0.4.201409291703"/>
+		<item value="org.eclipse.buildship:3.1.9.v20240115-1636"/>
+		<item value="org.eclipse.egit.gitflow.feature:6.9.0.202403050737-r"/>
+		<item value="org.eclipse.egit.source:6.9.0.202403050737-r"/>
+		<item value="org.eclipse.egit:6.9.0.202403050737-r"/>
+		<item value="org.eclipse.emf.common:2.31.0.v20231210-0956"/>
+		<item value="org.eclipse.emf.ecore:2.37.0.v20240203-0859"/>
+		<item value="org.eclipse.help:2.3.1700.v20240229-0520"/>
+		<item value="org.eclipse.jdt:3.19.400.v20240229-0520"/>
+		<item value="org.eclipse.jgit.http.apache:6.9.0.202403050737-r"/>
+		<item value="org.eclipse.jgit.lfs:6.9.0.202403050737-r"/>
+		<item value="org.eclipse.jgit.ssh.apache:6.9.0.202403050737-r"/>
+		<item value="org.eclipse.jgit:6.9.0.202403050737-r"/>
+		<item value="org.eclipse.pde:3.15.300.v20240229-0520"/>
+		<item value="org.eclipse.platform:4.31.0.v20240229-1022"/>
+		<item value="org.eclipse.rcp:4.31.0.v20240229-0520"/>
+		<item value="org.eclipse.tm.terminal.connector.ssh.feature:11.3.0.202307110141"/>
+		<item value="org.eclipse.tm.terminal.control.feature:11.3.0.202308191743"/>
+		<item value="org.eclipse.tm.terminal.feature:11.5.0.202312062348"/>
+		<item value="org.eclipse.tm.terminal.view.feature:11.3.0.202308190036"/>
+		<item value="org.eclipse.userstorage:1.2.0.v20210517-0327"/>
+		<item value="org.eclipse.wst.jsdt.chromium.debug.feature:0.7.0.v202307190351"/>
+		<item value="org.eclipse.wst.jsdt.feature:2.4.500.v202307190318"/>
+		<item value="org.eclipse.wst.json_ui.feature:1.1.11.v202308160419"/>
+		<item value="org.eclipse.wst.xml_ui.feature:3.31.0.v202308200343"/>
+		<item value="org.jboss.tools.maven.apt.feature:1.5.2.201812241535"/>
+		<item value="org.sonatype.m2e.buildhelper.feature:0.15.0.201207090124"/>
+		<item value="org.sonatype.m2e.mavenarchiver.feature:0.17.2.201606141937-signed-20160830073346"/>
+	</list>
+</section>
