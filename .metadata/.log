@@ -5687,3 +5687,15 @@ java.lang.InterruptedException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-05-13 12:22:20.559
 !MESSAGE executing callback sts4.classpath.bNnpkuSn SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-05-13 12:26:24.560
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.bNnpkuSn
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-05-13 12:26:24.560
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.bNnpkuSn
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-05-13 12:26:24.561
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-05-13 12:26:24.561
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.bNnpkuSn => OK
