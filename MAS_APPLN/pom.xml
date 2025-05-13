@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>1.5.19.RELEASE</version>
+		<relativePath /> <!-- lookup parent from repository -->
+	</parent>
+	<groupId>com.masIntg</groupId>
+	<artifactId>MAS_APPLN</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
+	<name>MAS_APPLN</name>
+	<description>Api project in Springboot</description>
+	<properties>
+		<java.version>1.8</java.version>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web-services</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>ojdbc</groupId>
+			<artifactId>ojdbc</artifactId>
+			<scope>system</scope>
+			<version>1.0</version>
+			<systemPath>C:\SPRING_BOOT_WORKSPACE\SPRING_BOOT_PROJECTS\MAS_APPLN (2)\MAS_APPLN\src\main\webapp\WEB-INF\lib\ojdbc6.jar</systemPath>
+		</dependency>
+
+		<dependency>
+			<groupId>SRV-INT-LIB</groupId>
+			<artifactId>SRV-INT-LIB</artifactId>
+			<scope>system</scope>
+			<version>1.0</version>
+			<systemPath>C:\SPRING_BOOT_WORKSPACE\SPRING_BOOT_PROJECTS\MAS_APPLN (2)\MAS_APPLN\src\main\webapp\WEB-INF\lib\SRV-INT-LIB.jar</systemPath>
+		</dependency>
+	
+		<dependency>
+			<groupId>gson-2.8.2</groupId>
+			<artifactId>gson-2.8.2</artifactId>
+			<scope>system</scope>
+			<version>1.0</version>
+			<systemPath>C:\SPRING_BOOT_WORKSPACE\SPRING_BOOT_PROJECTS\MAS_APPLN (2)\MAS_APPLN\src\main\webapp\WEB-INF\lib\gson-2.8.2.jar</systemPath>
+		</dependency>
+
+
+<!-- 		<dependency> -->
+<!-- 			<groupId>SRVSubmitCase</groupId> -->
+<!-- 			<artifactId>SRVSubmitCase</artifactId> -->
+<!-- 			<scope>system</scope> -->
+<!-- 			<version>1.0</version> -->
+<!-- 			<systemPath>C:\SPRING_BOOT_WORKSPACE\SPRING_BOOT_PROJECTS\MAS_APPLN (2)\MAS_APPLN\src\main\webapp\WEB-INF\lib\SRVSubmitCase.jar</systemPath> -->
+<!-- 		</dependency> -->
+		
+		<dependency>
+			<groupId>Server-WebLogic-Connect</groupId>
+			<artifactId>Server-WebLogic-Connect</artifactId>
+			<scope>system</scope>
+			<version>1.0</version>
+			<systemPath>C:\SPRING_BOOT_WORKSPACE\SPRING_BOOT_PROJECTS\MAS_APPLN (2)\MAS_APPLN\src\main\webapp\WEB-INF\lib\Server-WebLogic-Connect.jar</systemPath>
+		</dependency>
+
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<scope>system</scope>
+			<version>1.0</version>
+			<systemPath>C:\SPRING_BOOT_WORKSPACE\SPRING_BOOT_PROJECTS\MAS_APPLN (2)\MAS_APPLN\src\main\webapp\WEB-INF\lib\log4j-1.2.14.jar</systemPath>
+		</dependency>
+		
+		<dependency>
+			<groupId>javax.ejb</groupId>
+			<artifactId>javax.ejb</artifactId>
+			<scope>system</scope>
+			<version>1.0</version>
+			<systemPath>C:\SPRING_BOOT_WORKSPACE\SPRING_BOOT_PROJECTS\MAS_APPLN (2)\MAS_APPLN\src\main\webapp\WEB-INF\lib\javax.ejb-3.1.2.2.jar</systemPath>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/ru.send-to.ejb/EjbContext -->
+		<dependency>
+    		<groupId>ru.send-to.ejb</groupId>
+    		<artifactId>EjbContext</artifactId>
+    		<version>1.0.1.0</version>
+    		<scope>provided</scope>
+		</dependency>
+
+<dependency>
+    <groupId>javax</groupId>
+    <artifactId>javaee-api</artifactId>
+    <version>7.0</version>
+    <scope>provided</scope>
+</dependency>
+		
+		<dependency>
+			<groupId>javax.ejb</groupId>
+			<artifactId>javax.ejb</artifactId>
+			<scope>system</scope>
+			<version>1.0</version>
+			<systemPath>C:\Azhar's Workspace\ICOS\MAS_APPLN\src\main\webapp\WEB-INF\lib\SRVGetSession.jar</systemPath>
+		</dependency>
+
+		<dependency>
+			<groupId>javax.json</groupId>
+			<artifactId>javax.json</artifactId>
+			<scope>system</scope>
+			<version>1.0</version>
+			<systemPath>C:\SPRING_BOOT_WORKSPACE\SPRING_BOOT_PROJECTS\MAS_APPLN (2)\MAS_APPLN\src\main\webapp\WEB-INF\lib\javax.json-1.0.jar</systemPath>
+		</dependency>
+
+		<dependency>
+			<groupId>java-json</groupId>
+			<artifactId>java-json</artifactId>
+			<scope>system</scope>
+			<version>1.0</version>
+			<systemPath>C:\SPRING_BOOT_WORKSPACE\SPRING_BOOT_PROJECTS\MAS_APPLN (2)\MAS_APPLN\src\main\webapp\WEB-INF\lib\java-json.jar</systemPath>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-annotations -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-annotations</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.codehaus.jettison</groupId>
+			<artifactId>jettison</artifactId>
+			<version>1.5.3</version>
+		</dependency>
+
+
+
+		<dependency>
+			<groupId>com.googlecode.json-simple</groupId>
+			<artifactId>json-simple</artifactId>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-api</artifactId>
+			<version>5.0.0</version>
+			<scope>test</scope>
+		</dependency>
+
+
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>
